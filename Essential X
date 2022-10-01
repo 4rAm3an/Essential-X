@@ -1,0 +1,265 @@
+
+
+local ScreenGui = Instance.new("ScreenGui")
+local Namemenu = Instance.new("TextLabel")
+local UICorner = Instance.new("UICorner")
+local Frame = Instance.new("Frame")
+local Frame_2 = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local MainTab = Instance.new("TextButton")
+local MiscTab = Instance.new("TextButton")
+local SettingsTab = Instance.new("TextButton")
+local odf = Instance.new("Frame")
+local odr2 = Instance.new("Frame")
+local UICorner_3 = Instance.new("UICorner")
+local odf_2 = Instance.new("Frame")
+local dd0 = Instance.new("TextLabel")
+local dd1 = Instance.new("TextLabel")
+local ExitMenu = Instance.new("TextButton")
+local OpenMenu = Instance.new("TextButton")
+
+
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Namemenu.Name = "Namemenu"
+Namemenu.Parent = ScreenGui
+Namemenu.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+Namemenu.BorderColor3 = Color3.fromRGB(118, 5, 6)
+Namemenu.BorderSizePixel = 0
+Namemenu.Position = UDim2.new(0.263041914, 0, 0.406745106, 0)
+Namemenu.Size = UDim2.new(0, 482, 0, 53)
+Namemenu.Font = Enum.Font.Arial
+Namemenu.Text = "Essential X"
+Namemenu.TextColor3 = Color3.fromRGB(0, 0, 0)
+Namemenu.TextSize = 46.000
+Namemenu.TextWrapped = true
+
+UICorner.Parent = Namemenu
+
+Frame.Parent = Namemenu
+Frame.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0, 0, 0.868889153, 1)
+Frame.Size = UDim2.new(0, 482, 0, 16)
+Frame.Active = true
+
+Frame_2.Parent = Namemenu
+Frame_2.Active = true
+Frame_2.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+Frame_2.Position = UDim2.new(-0.000565834111, 0, 1.17276716, 0)
+Frame_2.Size = UDim2.new(0, 483, 0, 250)
+
+UICorner_2.Parent = Frame_2
+
+MainTab.Name = "MainTab"
+MainTab.Parent = Namemenu
+MainTab.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+MainTab.BorderColor3 = Color3.fromRGB(133, 179, 164)
+MainTab.BorderSizePixel = 2
+MainTab.Position = UDim2.new(0, 9, 0, 92)
+MainTab.Size = UDim2.new(0, 122, 0, 37)
+MainTab.Font = Enum.Font.FredokaOne
+MainTab.Text = "Main"
+MainTab.TextColor3 = Color3.fromRGB(133, 179, 164)
+MainTab.TextScaled = true
+MainTab.TextSize = 14.000
+MainTab.TextWrapped = true
+
+MiscTab.Name = "MiscTab"
+MiscTab.Parent = Namemenu
+MiscTab.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+MiscTab.BorderColor3 = Color3.fromRGB(133, 179, 164)
+MiscTab.BorderSizePixel = 2
+MiscTab.Position = UDim2.new(0.0205115303, 0, 3.13055944, 0)
+MiscTab.Size = UDim2.new(0, 122, 0, 37)
+MiscTab.Font = Enum.Font.FredokaOne
+MiscTab.Text = "Misc"
+MiscTab.TextColor3 = Color3.fromRGB(133, 179, 164)
+MiscTab.TextScaled = true
+MiscTab.TextSize = 14.000
+MiscTab.TextWrapped = true
+
+SettingsTab.Name = "SettingsTab"
+SettingsTab.Parent = Namemenu
+SettingsTab.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+SettingsTab.BorderColor3 = Color3.fromRGB(133, 179, 164)
+SettingsTab.BorderSizePixel = 2
+SettingsTab.Position = UDim2.new(0.019045027, 0, 4.49995422, 0)
+SettingsTab.Size = UDim2.new(0, 122, 0, 37)
+SettingsTab.Font = Enum.Font.FredokaOne
+SettingsTab.Text = "Settings"
+SettingsTab.TextColor3 = Color3.fromRGB(133, 179, 164)
+SettingsTab.TextScaled = true
+SettingsTab.TextSize = 14.000
+SettingsTab.TextWrapped = true
+
+odf.Name = "odf"
+odf.Parent = Namemenu
+odf.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+odf.BorderSizePixel = 0
+odf.Position = UDim2.new(-0.00125953532, 0, 0.994544685, 0)
+odf.Size = UDim2.new(0, 483, 0, 17)
+
+odr2.Name = "odr2"
+odr2.Parent = Namemenu
+odr2.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+odr2.BorderSizePixel = 0
+odr2.Position = UDim2.new(-0.00125953532, 0, -0.326210082, 0)
+odr2.Size = UDim2.new(0, 483, 0, 17)
+
+UICorner_3.Parent = odr2
+
+odf_2.Name = "odf"
+odf_2.Parent = Namemenu
+odf_2.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+odf_2.BorderSizePixel = 0
+odf_2.Position = UDim2.new(-0.00125953532, 0, -0.156398714, 0)
+odf_2.Size = UDim2.new(0, 483, 0, 17)
+
+dd0.Name = "dd0"
+dd0.Parent = odf_2
+dd0.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+dd0.BorderSizePixel = 0
+dd0.Position = UDim2.new(0.00102205388, 0, 0.470588237, 0)
+dd0.Size = UDim2.new(0, 460, 0, 70)
+dd0.Font = Enum.Font.Arial
+dd0.Text = "Essential X"
+dd0.TextColor3 = Color3.fromRGB(0, 0, 0)
+dd0.TextScaled = true
+dd0.TextSize = 14.000
+dd0.TextWrapped = true
+
+dd1.Name = "dd1"
+dd1.Parent = odf_2
+dd1.BackgroundColor3 = Color3.fromRGB(133, 179, 164)
+dd1.BackgroundTransparency = 1.000
+dd1.BorderSizePixel = 0
+dd1.Position = UDim2.new(0.0196555853, 0, 0.470588684, 0)
+dd1.Size = UDim2.new(0, 460, 0, 70)
+dd1.Font = Enum.Font.Arial
+dd1.Text = "Essential X"
+dd1.TextColor3 = Color3.fromRGB(133, 179, 164)
+dd1.TextScaled = true
+dd1.TextSize = 14.000
+dd1.TextWrapped = true
+
+ExitMenu.Name = "ExitMenu"
+ExitMenu.Parent = Namemenu
+ExitMenu.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ExitMenu.BorderColor3 = Color3.fromRGB(133, 179, 164)
+ExitMenu.BorderSizePixel = 3
+ExitMenu.Position = UDim2.new(0.970954239, 0, -0.452829599, 0)
+ExitMenu.Size = UDim2.new(0, 28, 0, 23)
+ExitMenu.Font = Enum.Font.Unknown
+ExitMenu.Text = "X"
+ExitMenu.TextColor3 = Color3.fromRGB(133, 179, 164)
+ExitMenu.TextScaled = true
+ExitMenu.TextSize = 14.000
+ExitMenu.TextWrapped = true
+
+OpenMenu.Name = "OpenMenu"
+OpenMenu.Parent = ScreenGui
+OpenMenu.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+OpenMenu.BorderColor3 = Color3.fromRGB(133, 179, 164)
+OpenMenu.BorderSizePixel = 3
+OpenMenu.Position = UDim2.new(0.010118044, 0, 0.95163399, 0)
+OpenMenu.Size = UDim2.new(0, 146, 0, 29)
+OpenMenu.Font = Enum.Font.Unknown
+OpenMenu.Text = "Open Menu"
+OpenMenu.TextColor3 = Color3.fromRGB(133, 179, 164)
+OpenMenu.TextScaled = true
+OpenMenu.TextSize = 14.000
+OpenMenu.TextWrapped = true
+
+-- Scripts:
+
+local function CLDQNYP_fake_script() -- Namemenu.LocalScript 
+	local script = Instance.new('LocalScript', Namemenu)
+
+	frame = script.Parent.Parent.Namemenu
+	frame.Draggable = true
+	frame.Selectable = true
+	frame.Active = true
+	
+	
+end
+coroutine.wrap(CLDQNYP_fake_script)()
+local function CHRRVEC_fake_script() -- MainTab.LocalScript 
+	local script = Instance.new('LocalScript', MainTab)
+
+	script.Parent.MouseButton1Down:connect(function()
+		script.Parent.Parent.main.Visible = true
+		script.Parent.Parent.misc.Visible = false
+		script.Parent.Parent.settings.Visible = false
+	end)
+	
+end
+coroutine.wrap(CHRRVEC_fake_script)()
+local function VWXQPVS_fake_script() -- MiscTab.LocalScript 
+	local script = Instance.new('LocalScript', MiscTab)
+
+	script.Parent.MouseButton1Down:connect(function()
+		script.Parent.Parent.main.Visible = false
+		script.Parent.Parent.misc.Visible = true
+		script.Parent.Parent.settings.Visible = false
+	end)
+	
+end
+coroutine.wrap(VWXQPVS_fake_script)()
+local function CUCK_fake_script() -- SettingsTab.LocalScript 
+	local script = Instance.new('LocalScript', SettingsTab)
+
+	script.Parent.MouseButton1Down:connect(function()
+		script.Parent.Parent.main.Visible = false
+		script.Parent.Parent.misc.Visible = false
+		script.Parent.Parent.settings.Visible = true
+	end)
+end
+coroutine.wrap(CUCK_fake_script)()
+local function GZYCIL_fake_script() -- Namemenu.LocalScript 
+	local script = Instance.new('LocalScript', Namemenu)
+
+	local frame = script.Parent -- path to the frame
+	local mouse = game:GetService('Players').LocalPlayer:GetMouse(); -- we need the mouse object, which also has the keyboard
+	
+	mouse.KeyDown:connect(function(key) -- whenever a key is pushed down
+		key = key:lower() -- i do this in all my key events, though i don't remember why
+		if key == ',' then -- if key pressed is h
+			frame.Visible = not frame.Visible -- flip between visible/invisible
+		end
+	end)
+	
+end
+coroutine.wrap(GZYCIL_fake_script)()
+local function UJEKTNU_fake_script() -- Namemenu.LocalScript 
+	local script = Instance.new('LocalScript', Namemenu)
+
+	frame = script.Parent.Parent.odf
+	frame.Draggable = true
+	frame.Selectable = true
+	frame.Active = true
+	
+end
+coroutine.wrap(UJEKTNU_fake_script)()
+local function BKYK_fake_script() -- ExitMenu.LocalScript 
+	local script = Instance.new('LocalScript', ExitMenu)
+
+	script.Parent.MouseButton1Down:connect(function()
+		script.Parent.Parent.Namemenu.Visible = false
+	end)
+	
+	
+end
+coroutine.wrap(BKYK_fake_script)()
+local function NDNH_fake_script() -- OpenMenu.LocalScript 
+	local script = Instance.new('LocalScript', OpenMenu)
+
+	script.Parent.MouseButton1Down:connect(function()
+		script.Parent.Parent.Namemenu.Visible = true
+	end)
+	
+	
+end
+coroutine.wrap(NDNH_fake_script)()
